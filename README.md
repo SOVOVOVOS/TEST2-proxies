@@ -2,19 +2,20 @@
 构建特殊的ubuntu镜像运行容器，获取最终配置文件
 ## 描述
 1.为了实现 actions workflow 自动化 docker 构建运行，需要添加 `GITHUB_TOKEN` 环境变量，这个是访问 GitHub API 的令牌，可以在 GitHub 主页，点击个人头像，Settings -> Developer settings -> Personal access tokens ，设置名字为 GITHUB_TOKEN 接着要勾选权限，勾选repo、admin:repo_hook和workflow即可，最后点击Generate token，如图所示  
-![3](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu/assets/144557489/6be5c5e5-aa41-49cf-a7e4-6d55791e4140)
 
+![1](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies/assets/144557489/04b8ed26-d4c8-46f5-a9ac-5b1fcb08fa48)
 
 2.赋予 actions[bot] 读/写仓库权限 -> Settings -> Actions -> General -> Workflow Permissions -> Read and write permissions -> save，如图所示
-![2](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu/assets/144557489/ab46fe13-9c43-42ad-80ea-73e1e2fea7da)
+
+![2](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies/assets/144557489/4d7f653a-b87e-4c5c-b1c4-c79bd8dc3078)
 
 3.添加 hub.docker.com 仓库账号 DOCKER_USERNAME 在 GitHub 仓库页 -> Settings -> Secrets -> actions -> New repository secret
 
 4.添加 hub.docker.com 仓库密码 DOCKER_PASSWORD 在 GitHub 仓库页 -> Settings -> Secrets -> actions -> New repository secret
 
 5.以上流程如图所示  
-![1](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu/assets/144557489/af8df052-d701-4ec5-a479-b6d3a83016a5)
 
+![3](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies/assets/144557489/b756ab93-20ce-4fc1-a16a-094006ba0534)
 
 6.转到 Actions -> Docker Image CI 并且启动 workflow，实现自动化  
 7.目录结构：  
