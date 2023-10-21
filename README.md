@@ -86,7 +86,7 @@
 ## 构建命令
 ### 编译 custom-ubuntu-topfreeproxies 环境
     # clone 项目
-    git clone https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu.git
+    git clone https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies.git
     # 进入目录
     cd docker-amd64-custom-ubuntu
     # 无缓存构建
