@@ -37,14 +37,14 @@ jobs:
       id: debian-pyenv
       uses: docker/build-push-action@v3
       with:
-        context: /home/runner/work/docker-amd64-custom-ubuntu/docker-amd64-custom-ubuntu
+        context: /home/runner/work/docker-amd64-custom-ubuntu-topfreeproxies/docker-amd64-custom-ubuntu-topfreeproxies
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/custom-ubuntu-topfreeproxies:latest
         platforms: linux/amd64
 
     - name: Run Docker Image
       run: |
-        docker run --platform linux/amd64 -v '/home/runner/work/docker-amd64-custom-ubuntu/docker-amd64-custom-ubuntu/debian.backup:/debian.backup' ${{ secrets.DOCKER_USERNAME }}/custom-ubuntu-topfreeproxies:latest
+        docker run --platform linux/amd64 -v '/home/runner/work/docker-amd64-custom-ubuntu-topfreeproxies/docker-amd64-custom-ubuntu-topfreeproxies/debian.backup:/debian.backup' ${{ secrets.DOCKER_USERNAME }}/custom-ubuntu-topfreeproxies:latest
   
     - name: 'Get Date'
       run: |
