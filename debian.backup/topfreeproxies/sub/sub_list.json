@@ -1,0 +1,282 @@
+[
+  {
+    "id": 0,
+    "remarks": "pojiezhiyuanjun/freev2",
+    "site": "https://github.com/pojiezhiyuanjun/freev2",
+    "url": "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/1013.txt",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 1,
+    "remarks": "Alvin9999/pac2",
+    "site": "https://github.com/Alvin9999/pac2",
+    "url": "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml|https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/2/config.yaml|https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/config.yaml|https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/13/config.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 2,
+    "remarks": "xiyaowong/freeFQ",
+    "site": "https://github.com/xiyaowong/freeFQ",
+    "url": "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 3,
+    "remarks": "freefq/free",
+    "site": "https://github.com/freefq/free",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.githubusercontent.com/freefq/free/master/ssr",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 4,
+    "remarks": "learnhard-cn/free_proxy_ss",
+    "site": "https://github.com/learnhard-cn/free_proxy_ss",
+    "url": "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/ss/sssub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/ssr/ssrsub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/v2ray/v2raysub|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_free.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_home_netflix.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_netflix.yaml|https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/clash/providers/provider_outwall.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 5,
+    "remarks": "clashnode.com",
+    "site": "https://clashnode.com/",
+    "url": "https://clashnode.com/wp-content/uploads/2023/05/20230519.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 6,
+    "remarks": "chfchf0306/clash",
+    "site": "https://github.com/chfchf0306/clash",
+    "url": "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 7,
+    "remarks": "AzadNetCH/Clash",
+    "site": "https://github.com/AzadNetCH/Clash",
+    "url": "https://github.com/AzadNetCH/Clash/raw/main/AzadNet.yml|https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_IRAN-Direct1.yml|https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_IRAN-Direct2.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 8,
+    "remarks": "ssrsub/ssr",
+    "site": "https://github.com/ssrsub/ssr",
+    "url": "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray|https://raw.githubusercontent.com/ssrsub/ssr/master/ss-sub|https://raw.githubusercontent.com/ssrsub/ssr/master/ssrsub|https://raw.githubusercontent.com/ssrsub/ssr/master/trojan",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 9,
+    "remarks": "Leon406/SubCrawler",
+    "site": "https://github.com/Leon406/SubCrawler",
+    "url": "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 10,
+    "remarks": "oslook/clash-freenode",
+    "site": "https://github.com/oslook/clash-freenode",
+    "url": "https://raw.githubusercontent.com/openRunner/clash-freenode/main/v2ray.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 11,
+    "remarks": "smallflowercat1995/clash-script-for-system",
+    "site": "https://github.com/smallflowercat1995/clash-script-for-system/tree/master/sources",
+    "url": "https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config1.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config2.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config3.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config4.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config5.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config6.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config7.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config8.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config9.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config10.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config11.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config12.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config13.yaml|https://raw.githubusercontent.com/smallflowercat1995/clash-script-for-system/master/sources/config14.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 12,
+    "remarks": "iwxf/free-v2ray",
+    "site": "https://github.com/iwxf/free-v2ray",
+    "url": "https://raw.githubusercontent.com/iwxf/free-v2ray/master/index.html",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 13,
+    "remarks": "1808.ga",
+    "site": "https://1808.ga/",
+    "url": "https://jiang.netlify.app",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 14,
+    "remarks": "zhlx2835/freefq",
+    "site": "https://github.com/zhlx2835/freefq",
+    "url": "https://raw.githubusercontent.com/zhlx2835/freefq/main/v2|https://raw.githubusercontent.com/zhlx2835/freefq/main/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 15,
+    "remarks": "Jsnzkpg/Jsnzkpg",
+    "site": "https://github.com/Jsnzkpg/Jsnzkpg",
+    "url": "https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 16,
+    "remarks": "ermaozi/get_subscribe",
+    "site": "https://github.com/ermaozi/get_subscribe",
+    "url": "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml|https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 17,
+    "remarks": "wrfree/free",
+    "site": "https://github.com/wrfree/free",
+    "url": "https://raw.githubusercontent.com/wrfree/free/main/v2",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 18,
+    "remarks": "GreenFishStudio/GreenFish",
+    "site": "https://github.com/GreenFishStudio/GreenFish",
+    "url": "https://raw.githubusercontent.com/GreenFishStudio/GreenFish/master/Subscription/GreenFishYYDS",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 22,
+    "remarks": "TG@getv2ray",
+    "site": "https://t.me/getv2ray",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 23,
+    "remarks": "ronghuaxueleng/get_v2",
+    "site": "https://github.com/ronghuaxueleng/get_v2",
+    "url": "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/changfengoss.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/jiang.yaml|https://raw.githubusercontent.com/ronghuaxueleng/get_v2/main/pub/ssr.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 24,
+    "remarks": "anaer/Sub",
+    "site": "https://github.com/anaer/Sub",
+    "url": "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 25,
+    "remarks": "xrayfree/free-ssr-ss-v2ray-vpn-clash",
+    "site": "https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash",
+    "url": "https://freefq.neocities.org/free.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 28,
+    "remarks": "https://t.me/s/v2raydailyupdate",
+    "site": "https://clashfree.eu.org/",
+    "url": "https://clashfree.eu.org/wp-content/uploads/rss/20230606.txt|https://clashfree.eu.org/wp-content/uploads/rss/20230606.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 29,
+    "remarks": "moneyfly1/sublist",
+    "site": "https://github.com/moneyfly1/sublist",
+    "url": "https://raw.githubusercontent.com/moneyfly1/sublist/main/clash.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 30,
+    "remarks": "@kxswa",
+    "site": "https://t.me/kxswa/",
+    "url": "https://v2y.xyz/api/v1/client/subscribe?token=2533ce3df935ebaf4143fcc3df068ebd",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 31,
+    "remarks": "ok1991/free",
+    "site": "https://github.com/freefq/free|https://github.com/v2ray-links/v2ray-free|https://github.com/Jia-Pingwa/mianfeifq-share",
+    "url": "https://raw.githubusercontent.com/freefq/free/master/v2|https://raw.githubusercontent.com/v2ray-links/v2ray-free/master/v2ray|https://raw.githubusercontent.com/Jia-Pingwa/mianfeifq-share/main/share.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 32,
+    "remarks": "parkerpa/jsfxs",
+    "site": "https://github.com/parkerpa/jsfxs",
+    "url": "https://tt.vg/freeclash|https://tt.vg/freev2",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 33,
+    "remarks": "Pawdroid/Free-servers",
+    "site": "https://github.com/Pawdroid/Free-servers",
+    "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 35,
+    "remarks": "https://fofa.info",
+    "site": "https://fofa.info/result?qbase64=Ym9keT0i6Ieq5Yqo5oqT5Y%2BWdGfpopHpgZPjgIHorqLpmIXlnLDlnYDjgIHlhazlvIDkupLogZTnvZHkuIrnmoRzc%2BOAgXNzcuOAgXZtZXNz44CBdHJvamFu6IqC54K55L%2Bh5oGvIg%3D%3D",
+    "url": "http://183.33.58.147:8089/clash/proxies|http://123.lcq25938.top:9080/clash/proxies|http://59.62.188.21:9080/clash/proxies|http://2.50.75.82:7777/clash/proxies",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 36,
+    "remarks": "Nodefree.org",
+    "site": "https://github.com/Fukki-Z/nodefree",
+    "url": "https://nodefree.org/dy/202212/20221209.txt|https://nodefree.org/dy/2023/03/20230318.txt|https://nodefree.org/dy/2023/03/20230318.yaml",
+    "update_method": "change_date",
+    "enabled": true
+  },
+  {
+    "id": 37,
+    "remarks": "Rokate/Proxy-Sub",
+    "site": "https://github.com/Rokate/Proxy-Sub",
+    "url": "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_ssr.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml|https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_trojan.yml",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 38,
+    "remarks": "mianfeifq/share",
+    "site": "https://github.com/mianfeifq/share",
+    "url": "https://raw.githubusercontent.com/mianfeifq/share/main/data2023109.txt",
+    "update_method": "page_release",
+    "enabled": true
+  },
+  {
+    "id": 39,
+    "remarks": "peasoft/NoMoreWalls",
+    "site": "https://github.com/peasoft/NoMoreWalls",
+    "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt",
+    "update_method": "auto",
+    "enabled": true
+  },
+  {
+    "id": 40,
+    "remarks": "ClashNode",
+    "site": "https://clashnode.com/f/freenode",
+    "url": "https://clashnode.com/wp-content/uploads/2023/10/20231013.txt",
+    "update_method": "change_date",
+    "enabled": true
+  }
+]

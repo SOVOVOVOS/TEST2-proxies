@@ -1,0 +1,27 @@
+version: "3.9"
+services:
+  custom-ubuntu-app:
+    image: smallflowercat1995/custom-ubuntu-topfreeproxies:latest
+    platform: linux/amd64
+    build: .
+    container_name: custom-ubuntu-topfreeproxies-latest-container
+    restart: "no"
+    #environment:
+        #- "http_proxy=http://192.168.2.233:8964"
+        #- "https_proxy=http://192.168.2.233:8964"
+        #- "all_proxy=socks5://192.168.2.233:8965"
+    volumes:
+        - $HOME/.ssh:/root/.ssh
+        - ./debian.backup:/debian.backup
+    command:
+        - bash
+        - -c 
+        - "cd /debian.backup/sfs ; bash start.sh ; cd /debian.backup/topfreeproxies ; bash start.sh"  
+    #network_mode: "host"
+    privileged: true
+    networks:
+        - app_net
+
+networks:
+  app_net:
+    driver: bridge
