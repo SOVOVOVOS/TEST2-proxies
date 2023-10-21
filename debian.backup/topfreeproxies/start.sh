@@ -10,4 +10,4 @@ sudo chmod +x ./utils/subconverter/subconverter ; sudo chmod +x ./utils/litespee
 
 python ./utils/main.py
 
-sed -i 's;port: 7890;port: ${HTTP_PORT};g;s;socks-port: 7891;socks-port: ${SOCKS5_PORT};g;s;external-controller: :9090;external-controller: :9091;g' ./Eternity.yaml
+sed -i 's;port: 7890;port: '${HTTP_PORT}';g;s;socks-port: 7891;socks-port: '${SOCKS5_PORT}';g;s;external-controller: :9090;external-controller: :9091;g' ./Eternity.yaml

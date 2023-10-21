@@ -22,7 +22,7 @@ nohup ./linux-amd64 -f .config/config.yaml -d .config > linux-amd64.log 2>&1 & d
 
 choices(){
 cp -fv "../../topfreeproxies/oneconfig.yaml" ".config/config.yaml"
-sudo sed -i 's;port: 7890;port: ${HTTP_PORT};g;s;socks-port: 7891;socks-port: ${SOCKS5_PORT};g;s;external-controller: :9090;external-controller: :9091;g' ./Eternity.yaml
+sudo sed -i 's;port: 7890;port: '${HTTP_PORT}';g;s;socks-port: 7891;socks-port: '${SOCKS5_PORT}';g;s;external-controller: :9090;external-controller: :9091;g' ./Eternity.yaml
 startclash
 }
 
