@@ -16,7 +16,7 @@
 ![1](https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu/assets/144557489/af8df052-d701-4ec5-a479-b6d3a83016a5)
 
 
-6.转到 Actions -> docker-image 并且启动 workflow，实现自动化  
+6.转到 Actions -> Docker Image CI 并且启动 workflow，实现自动化  
 7.目录结构：  
 
     .  
