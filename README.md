@@ -1,4 +1,4 @@
-# docker-amd64-custom-ubuntu
+# docker-amd64-custom-ubuntu-topfreeproxies
 构建特殊的ubuntu镜像运行容器，获取最终配置文件
 ## 描述
 1.为了实现 actions workflow 自动化 docker 构建运行，需要添加 `GITHUB_TOKEN` 环境变量，这个是访问 GitHub API 的令牌，可以在 GitHub 主页，点击个人头像，Settings -> Developer settings -> Personal access tokens ，设置名字为 GITHUB_TOKEN 接着要勾选权限，勾选repo、admin:repo_hook和workflow即可，最后点击Generate token，如图所示  
@@ -88,7 +88,7 @@
     # clone 项目
     git clone https://github.com/smallflowercat1995/docker-amd64-custom-ubuntu-topfreeproxies.git
     # 进入目录
-    cd docker-amd64-custom-ubuntu
+    cd docker-amd64-custom-ubuntu-topfreeproxies
     # 无缓存构建
     docker-compose build --no-cache
     # 构建完成后 后台启动 等待 custom-ubuntu-topfreeproxies 环境编译打包，之后这个容器会终止
