@@ -20,62 +20,61 @@
 6.转到 Actions -> Docker Image CI 并且启动 workflow，实现自动化  
 7.目录结构：  
 
-    .  
-    ├── .github
-    │   └── workflows
-    │       ├── docker-image.yml
-    │       └── remove-old-workflow.yml
-    ├── Dockerfile
-    ├── README.md
-    ├── debian.backup
-    │   ├── crontab
-    │   ├── sfs
-    │   │   ├── sources
-    │   │   │   ├── .config
-    │   │   │   ├── Country.mmdb
-    │   │   │   ├── linux-amd64
-    │   │   │   └── linux-amd64.log
-    │   │   └── start.sh
-    │   ├── start.sh
-    │   └── topfreeproxies
-    │       ├── Eternity
-    │       ├── Eternity.yaml
-    │       ├── LICENSE
-    │       ├── README.md
-    │       ├── clash
-    │       ├── clash.gz
-    │       ├── crontab
-    │       ├── oneconfig.yaml
-    │       ├── start.sh
-    │       ├── sub
-    │       │   ├── list
-    │       │   ├── sub_list.json
-    │       │   ├── sub_merge.txt
-    │       │   ├── sub_merge_base64.txt
-    │       │   └── sub_merge_clash.yaml
-    │       ├── update
-    │       │   ├── 2212
-    │       │   ├── 2303
-    │       │   ├── 2304
-    │       │   ├── 2305
-    │       │   ├── 2306
-    │       │   ├── 2307
-    │       │   ├── 2308
-    │       │   ├── 2309
-    │       │   └── 2310
-    │       └── utils
-    │           ├── Country.mmdb
-    │           ├── __pycache__
-    │           ├── config.ini
-    │           ├── litespeedtest
-    │           ├── main.py
-    │           ├── scripts
-    │           ├── sub_merge.py
-    │           ├── sub_update.py
-    │           └── subconverter
-    ├── docker-compose.yml
-    ├── init.sh
-    └── requirements.txt 
+    .                                     # 这个是根目录
+    ├── .github                           # 这个是github虚拟机项目
+    │   └── workflows                     # 这个是工作流文件夹
+    │       ├── docker-image.yml          # 这个是docker构建编译流文件
+    │       └── remove-old-workflow.yml   # 这个是移除缓存流文件
+    ├── Dockerfile                        # 这个是构建docker镜像所需Dockerfile
+    ├── README.md                         # 这个是项目说明文件
+    ├── debian.backup                     # 这个是曾经的debian项目备份文件移植
+    │   ├── crontab                       # 这个是类unix系定时任务文件crontab
+    │   ├── sfs                           # 这个是暂时代理小工具
+    │   │   ├── sources                   # 这个是小工具资源目录
+    │   │   │   ├── .config               # 这个是小工具配置文件
+    │   │   │   ├── Country.mmdb          # 这个是小工具代理列表文件
+    │   │   │   ├── linux-amd64           # 这个是小工具代理程序
+    │   │   │   └── linux-amd64.log       # 这个是小工具代理日志
+    │   │   └── start.sh                  # 这个是小工具启动脚本
+    │   ├── start.sh                      # 这个是debian备份项目启动脚本
+    │   └── topfreeproxies                # 这个是大佬 aiirobyte 的项目，其原理完全不懂
+    │       ├── Eternity                  # 这个是配置文件集合体
+    │       ├── Eternity.yaml             # 这个是配置文件集合体
+    │       ├── LICENSE                   # 这个是项目协议吧？
+    │       ├── README.md                 # 这个是项目说明
+    │       ├── clash                     # 这个是clash代理工具
+    │       ├── clash.gz                  # 这个是clash压缩包
+    │       ├── crontab                   # 这个是类unix系定时任务文件crontab
+    │       ├── start.sh                  # 这个是项目启动脚本
+    │       ├── sub                       # 这个是节点集合体
+    │       │   ├── list                  # 这个是节点列表存放目录
+    │       │   ├── sub_list.json         # 这个是节点配置文件
+    │       │   ├── sub_merge.txt         # 这个是节点整合文件
+    │       │   ├── sub_merge_base64.txt  # 这个是节点整合转码文件
+    │       │   └── sub_merge_clash.yaml  # 这个是节点整合代理文件
+    │       ├── update                    # 这个是节点更新目录
+    │       │   ├── 2212                  # 这个是节点文件存放目录
+    │       │   ├── 2303                  # 这个是节点文件存放目录
+    │       │   ├── 2304                  # 这个是节点文件存放目录
+    │       │   ├── 2305                  # 这个是节点文件存放目录
+    │       │   ├── 2306                  # 这个是节点文件存放目录
+    │       │   ├── 2307                  # 这个是节点文件存放目录
+    │       │   ├── 2308                  # 这个是节点文件存放目录
+    │       │   ├── 2309                  # 这个是节点文件存放目录
+    │       │   └── 2310                  # 这个是节点文件存放目录
+    │       └── utils                     # 这个是项目工具目录
+    │           ├── Country.mmdb          # 这个是项目代理列表
+    │           ├── __pycache__           # 这个是python缓存文件目录？
+    │           ├── config.ini            # 这个是工具配置文件
+    │           ├── litespeedtest         # 这个是大佬 xxf098 的 LiteSpeedTest 节点测速项目
+    │           ├── main.py               # 这个是主程序脚本
+    │           ├── scripts               # 这个是脚本存放目录
+    │           ├── sub_merge.py          # 这个是节点整合脚本
+    │           ├── sub_update.py         # 这个是根节点更新脚本
+    │           └── subconverter          # 这个是大佬 tindy2013 的 subconverter 节点整合项目
+    ├── docker-compose.yml                # 这个是 docker-compose 构建运行的 yml 文件
+    ├── init.sh                           # 这个是 docker 构建镜像内置脚本
+    └── requirements.txt                  # 这个是所需 python 环境的第三方模块
 
 ## 依赖
     amd64 设备
@@ -101,3 +100,5 @@
 
 ## 感谢  
 大佬 aiirobyte：[https://gitlab.com/aiirobyte/topfreeproxies](https://gitlab.com/aiirobyte/topfreeproxies)
+大佬 xxf098：[https://github.com/xxf098/LiteSpeedTest](https://github.com/xxf098/LiteSpeedTest)
+大佬 tindy2013：[https://github.com/tindy2013/subconverter](https://github.com/tindy2013/subconverter)
